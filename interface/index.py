@@ -10,14 +10,17 @@ def create_window(window):
 	btn = Button(window, text="View exams", fg='black')
 	btn.place(x=80, y=100)
 
+	txtfld=Entry(window, text="This is Entry Widget", bd=5)
+	txtfld.place(x=80, y=150)
+
 	########################################################
 	btn = Button(window, text="Make a new exam", fg='black')
 	btn.place(x=300, y=160)
 
-	btn = Button(window, text="Edit an exam", fg='black')
+	btn = Button(window, text="Edit exam", fg='black')
 	btn.place(x=300, y=130)
 
-	btn = Button(window, text="Delete an exam", fg='black')
+	btn = Button(window, text="Delete exam", fg='black')
 	btn.place(x=300, y=100)
 
 	btn = Button(window, text="With 1 themes", fg='black')
