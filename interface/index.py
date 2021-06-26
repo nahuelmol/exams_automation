@@ -1,5 +1,5 @@
 from tkinter import *
-
+from .button import *
 
 def create_window(window):
 	print("there's a window")
@@ -13,23 +13,6 @@ def create_window(window):
 	txtfld=Entry(window, text="This is Entry Widget", bd=5)
 	txtfld.place(x=80, y=150)
 
-	########################################################
-	btn = Button(window, text="Make a new exam", fg='black')
-	btn.place(x=300, y=160)
-
-	btn = Button(window, text="Edit exam", fg='black')
-	btn.place(x=300, y=130)
-
-	btn = Button(window, text="Delete exam", fg='black')
-	btn.place(x=300, y=100)
-
-	btn = Button(window, text="With 1 themes", fg='black')
-	btn.place(x=450, y=160)
-
-	btn = Button(window, text="Multiple themes", fg='black')
-	btn.place(x=450, y=190)
-
-	########################################################
 	window.title("New window") 
 	window.geometry("600x400+10+20")
 	window.mainloop()
