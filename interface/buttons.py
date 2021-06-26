@@ -1,7 +1,6 @@
 from tkinter import *
 
-if __name__ == "button":
-
+def main():
   btn = Button(window, text="Make a new exam", fg='black')
   btn.place(x=300, y=160)
   
@@ -16,3 +15,6 @@ if __name__ == "button":
   
   btn = Button(window, text="Multiple themes", fg='black')
   btn.place(x=450, y=190)
+
+
+  
