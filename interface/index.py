@@ -1,14 +1,13 @@
 from tkinter import *
-from .button import *
+from .button import main
 
 def create_window(window):
 	print("there's a window")
 
 	lbl=Label(window, text="This is Label widget", fg='black', font=("Helvetica", 16))
 	lbl.place(x=60, y=50)
-
-	btn = Button(window, text="View exams", fg='black')
-	btn.place(x=80, y=100)
+	
+	main()
 
 	txtfld=Entry(window, text="This is Entry Widget", bd=5)
 	txtfld.place(x=80, y=150)
