@@ -1,6 +1,9 @@
 from tkinter import *
 
 def main():
+	btn = Button(window, text="View exams", fg='black')
+	btn.place(x=80, y=100)
+  
   btn = Button(window, text="Make a new exam", fg='black')
   btn.place(x=300, y=160)
   
